@@ -29,7 +29,22 @@
 1. Clone the repository:
 ```
 gitclone[(https://github.com/username/repo.git)]
-
+```bash
+2. Install dependencies:
+```
+```bash
+3.  Configure environment variables by creating a .env file in the root directory with the following
+variables:
+```
+```bash
+4.  Start the development server:
+```
+```bash
+5.  Deploy the app to Vercel:
+```
+```bash
+6.  This will deploy the app to Vercel, and you will be provided with a URL where you can access the app:
+```
 ## Usage
 ## Smart Contract Documentation
 
