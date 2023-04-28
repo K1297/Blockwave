@@ -13,13 +13,16 @@
 ![blockwave drawio (1)](https://user-images.githubusercontent.com/125735215/235243199-bc37420b-a38f-46a2-a926-cd322413eeda.png)
 
 **Components**
-* **Frontend**: This component will be responsible for providing a user-friendly interface for theusers to interact with the Dapp. It will be built using modern web development technologies such as Nextjs.
-*  **Backend**: This component will handle the business logic and data storage of the Dapp. It will be built using Sanity, and will communicate with the Ethereum blockchain and other external services through smart contracts and APIs.
-*  **Payment Processing Smart Contract**: This smart contract will handle the payment processing for the subscriptions of the followers and influencers on the platform. It will be responsible for verifying the validity of the subscription and transferring the payment to the respective wallets.The smart contract will be written in Solidity.
-*  **Storage Smart Contract**: This smart contract will handle the storage of the uploaded content on the IPFS network through Spheron Storage. It will be responsible for creating and managing thecontent hashes, and ensuring the integrity and accessibility of the content. The smart contract will be written in Solidity.
-*  **NFT Smart Contract**: This smart contract will allow users to mint NFTs for their profile pictures.It will be responsible for creating and managing the NFTs associated with the user's account, and ensuring their uniqueness and authenticity. The smart contract will be written in Solidity.
-*  **Event Ticketing Smart Contract**: This smart contract will handle the ticketing system for the events hosted on the platform. It will be responsible for verifying the validity of the tickets and transferring the payment to the event organizers. The smart contract will be written in Solidity.
-*   **Sanity Studio**: This component will provide a powerful yet user-friendly interface for managing the content and data of the Dapp. It will be used to store information such as user wallet addresses, IPFS hashes for the posts, comments, and likes/dislikes. Sanity Studio will communicate with the backend through APIs.
+*  **User's Browser:** This is where the user interacts with the frontend UI.
+*  **Vercel Hosting Platform:** This is where the frontend app is hosted and serves as a CDN fordelivering static assets.
+*  **Next.js Frontend App:** This is the frontend application that the user interacts with, built using the Next.js framework.
+*  **Sanity Studio:** This is where data like user profiles, posts, comments, and wallet addresses are stored.
+*  **Wagmi:** This is a user-friendly interface for managing Ethereum wallets and interacting with smart contracts.
+*  **Event Ticketing Smart Contract:** This is a smart contract that manages the creation, selling, and buying of event tickets.
+*  **IPFS Network:** This is a decentralized peer-to-peer network for storing and sharing files.
+*  **Polygon Test Network:** This is the blockchain network where the dapp's smart contracts are deployed.
+*  **Backend Server:** This is where server-side logic like post uploads are handled.
+*  **Metamask Wallet:** This is a browser extension for interacting with wallets and signing transactions.
    
 ## Installation   
 ## Usage
