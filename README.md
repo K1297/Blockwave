@@ -24,7 +24,11 @@
 *  **Backend Server:** This is where server-side logic like post uploads are handled.
 *  **Metamask Wallet:** This is a browser extension for interacting with wallets and signing transactions.
    
-## Installation   
+## Installation
+```bash
+1. Clone the repository:
+```
+
 ## Usage
 ## Smart Contract Documentation
 
