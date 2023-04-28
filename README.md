@@ -10,7 +10,7 @@
 * Overall, **BlockWave** provides a decentralized content sharing platform that incentivizes creators and influencers to generate **_high-quality_** content while providing users with a seamless and **_user-friendly_** experience.
 
 ## Architecture
-![ARCHITECTURE DIAGRAM drawio](https://user-images.githubusercontent.com/125735215/235175483-909a742b-f8bb-4f13-a0e3-ab3cb506770b.png)
+![blockwave drawio (1)](https://user-images.githubusercontent.com/125735215/235243199-bc37420b-a38f-46a2-a926-cd322413eeda.png)
 
 **Components**
 * **Frontend**: This component will be responsible for providing a user-friendly interface for theusers to interact with the Dapp. It will be built using modern web development technologies such as Nextjs.
