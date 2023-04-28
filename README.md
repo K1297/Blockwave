@@ -28,7 +28,7 @@
 ```bash
 1. Clone the repository:
 ```
-
+gitclone[(https://github.com/username/repo.git)]
 
 ## Usage
 ## Smart Contract Documentation
