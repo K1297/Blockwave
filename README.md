@@ -54,6 +54,7 @@ variables:
 and in **Sanity studio.**
 *☆ users can browse posts , make payments to influencers 
 and **mint NFTs** associated with their account for their profile pictures.
+## Features 
 
 ## Smart Contract Documentation
 
