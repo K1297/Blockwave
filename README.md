@@ -47,14 +47,18 @@ variables:
 ```
 ## Usage
 
-*☆ sign in with ethereum wallet by clicking on the "sign in with ethereum " button.
-*☆ upload a post picture by clicking on the "post" button and selecting a picture
+*   sign in with ethereum wallet by clicking on the "sign in with ethereum " button.
+*   upload a post picture by clicking on the "post" button and selecting a picture
  from your local file system. 
-*☆ your post will be associated with your ethereum wallet address 
+*  your post will be associated with your ethereum wallet address 
 and in **Sanity studio.**
-*☆ users can browse posts , make payments to influencers 
+*  users can browse posts , make payments to influencers 
 and **mint NFTs** associated with their account for their profile pictures.
+
 ## Features 
+*  user authentication with Metamask Wallet.
+*  nft minting .
+*  event ticketing page to buy tickets for events.
 
 ## Smart Contract Documentation
 
