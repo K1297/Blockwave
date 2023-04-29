@@ -10,7 +10,7 @@ picture, which will be associated with their account in sanity.
 
 ## Features 
 *  user authentication with Metamask Wallet.
-*  nft minting .
+*  nft minting for profile picture.
 *  event ticketing page to buy tickets for events.
 *  post upload and association with user's wallet address. 
 *  access to likes/dislikes/ commenting on posts.
