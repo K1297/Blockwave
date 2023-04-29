@@ -1,5 +1,6 @@
 # BLOCKWAVE
-## Project description
+## Decentralized Content Sharing Dapp 
+
 * **BLOCKWAVE** is a a decentralized content sharing platform that allows users to create, upload, and share content with others.
 * The platform incentivizes creators and influencers to generate **high-quality** content by offering them the ability to monetize their content through making *Payment*, *event ticketing*, and *NFT profile pictures*.
 * The platform is made up of several components such the front-end, back-end, and various smart contracts.
@@ -8,6 +9,15 @@
 * The NFT smart contract allows users to mint NFTs for their profile pictures, which are associated with their account in sanity studio.
 * Sanity studio is used to store various user-related data, such as likes, dislikes, posts, comments, and IPFS hashes for the post.
 * Overall, **BlockWave** provides a decentralized content sharing platform that incentivizes creators and influencers to generate **_high-quality_** content while providing users with a seamless and **_user-friendly_** experience.
+
+## Features 
+*  user authentication with Metamask Wallet.
+*  nft minting .
+*  event ticketing page to buy tickets for events.
+*  post upload and association with user's wallet address. 
+*  access to likes/dislikes/ commenting on posts.
+*  creating,  selling and buying of event tickets using smart contracts.
+
 
 ## Architecture
 ![blockwave drawio (1)](https://user-images.githubusercontent.com/125735215/235243199-bc37420b-a38f-46a2-a926-cd322413eeda.png)
@@ -54,11 +64,6 @@ variables:
 and in **Sanity studio.**
 *  users can browse posts , make payments to influencers 
 and **mint NFTs** associated with their account for their profile pictures.
-
-## Features 
-*  user authentication with Metamask Wallet.
-*  nft minting .
-*  event ticketing page to buy tickets for events.
 
 ## Smart Contract Documentation
 
