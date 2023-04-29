@@ -18,7 +18,7 @@ picture, which will be associated with their account in sanity.
 
 
 ## Architecture
-![blockwave drawio (1)](https://user-images.githubusercontent.com/125735215/235243199-bc37420b-a38f-46a2-a926-cd322413eeda.png)
+![blockwave 2 drawio](https://user-images.githubusercontent.com/125735215/235324349-34ca0594-d35d-4d6f-a2f0-6d0e04525053.png)
 
 **Components**
 *  **User's Browser:** This is where the user interacts with the frontend UI.
