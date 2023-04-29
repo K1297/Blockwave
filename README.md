@@ -46,6 +46,12 @@ variables:
 6.  This will deploy the app to Vercel, and you will be provided with a URL where you can access the app:
 ```
 ## Usage
+
+  ☆ sign in with ethereum wallet by clicking on the "sign in with ethereum " button.
+  ☆ upload a post picture by clicking on the "post" button and selecting a picture from your local file system. 
+  ☆ your post will be associated with your ethereum wallet address and in **Sanity studio.**
+  ☆ users can browse posts , make payments to influencers and **mint NFTs** associated with their account for their profile pictures.
+
 ## Smart Contract Documentation
 
 
