@@ -1,14 +1,12 @@
 # BLOCKWAVE
 ## Decentralized Content Sharing Dapp 
 
-* **BLOCKWAVE** is a a decentralized content sharing platform that allows users to create, upload, and share content with others.
-* The platform incentivizes creators and influencers to generate **high-quality** content by offering them the ability to monetize their content through making *Payment*, *event ticketing*, and *NFT profile pictures*.
-* The platform is made up of several components such the front-end, back-end, and various smart contracts.
-* Front-end is responsible for providing a user-friendly interface for users to interact with the platform while the back-end consists of several smart contracts that handle various aspects of the platform, such as nft profile picture & Event Ticketing.
-* It is Integrated with **_Spheron Storage IPFS_**, **_Hosting_**& **_UI_** to ensure that content is stored in a decentralized manner.
-* The NFT smart contract allows users to mint NFTs for their profile pictures, which are associated with their account in sanity studio.
-* Sanity studio is used to store various user-related data, such as likes, dislikes, posts, comments, and IPFS hashes for the post.
-* Overall, **BlockWave** provides a decentralized content sharing platform that incentivizes creators and influencers to generate **_high-quality_** content while providing users with a seamless and **_user-friendly_** experience.
+Blockwave is a decentralized content sharing dapp where users can share their posts and followers can
+pay directly to their favorite influencers using their wallet addresses. The dapp uses a decentralized
+architecture and integrates with user-friendly UI, and sanity studio to store data like user profiles,
+posts, comments, and wallet addresses. The dapp also allows users to mint NFTs and set their profile
+picture, which will be associated with their account in sanity.
+
 
 ## Features 
 *  user authentication with Metamask Wallet.
