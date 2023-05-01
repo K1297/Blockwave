@@ -1,5 +1,6 @@
 # BLOCKWAVE
-## Decentralized Content Sharing Dapp 
+## Decentralized Content 
+        Sharing Dapp 
 
 Blockwave is a decentralized content sharing dapp where users can share their posts and followers can
 pay directly to their favorite influencers using their wallet addresses. The dapp uses a decentralized
