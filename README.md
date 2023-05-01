@@ -107,11 +107,11 @@ creating tokens and Ownable for adding ownership and access control.
 **Event Structure**
 
 Within this contract, there is a structure called "Event" that has the following properties:
-• totalSupply: total number of tickets available for the event
-• remainingSupply: number of tickets still available for the event
-• price: the price of each ticket
-• startDate: the start date of the event
-• endDate: the end date of the event
+* totalSupply: total number of tickets available for the event
+* remainingSupply: number of tickets still available for the event
+* price: the price of each ticket
+* startDate: the start date of the event
+* endDate: the end date of the event
 This structure is used to define and keep track of different events and their ticket details within the
 contract.
 
@@ -119,11 +119,11 @@ contract.
 
 To create a new event, the contract owner can call the createEvent function. This function takes the
 following parameters:
-• _eventId: the ID of the event to be created
-• _totalTickets: the total number of tickets available for the event
-• _ticketPrice: the price of each ticket
-• _startDate: the start date of the event
-• _endDate: the end date of the event
+* _eventId: the ID of the event to be created
+* _totalTickets: the total number of tickets available for the event
+* _ticketPrice: the price of each ticket
+* _startDate: the start date of the event
+* _endDate: the end date of the event
 Before creating the event, several "require" statements are included which are conditions that must
 be met for the event to be created:
 1. The total number of tickets must be greater than zero
@@ -138,10 +138,10 @@ it in the _events mapping defined earlier.
 
 After an event is created, the contract owner can mint tickets for that event by calling the _mint
 function. This function takes the following parameters:
-• to: the address of the recipient of the minted tickets
-• id: the ID of the event for which the tickets are being minted
-• amount: the number of tickets to be minted
-• data: optional data to be included with the ticket minting
+* to: the address of the recipient of the minted tickets
+* id: the ID of the event for which the tickets are being minted
+* amount: the number of tickets to be minted
+* data: optional data to be included with the ticket minting
 This function will create and mint the specified number of tickets for the given event ID and
 transfer them to the recipient address.
 
