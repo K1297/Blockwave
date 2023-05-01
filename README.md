@@ -65,10 +65,80 @@ and **mint NFTs** associated with their account for their profile pictures.
 
 ## Smart Contract Documentation
 
-* NFT profile smart contract
+** NFT profile smart contract**
 
+NftProfile is a Solidity smart contract for creating and managing non-fungible tokens (NFTs)
+that represent profiles. It extends the ERC721URIStorage contract from the OpenZeppelin library
+to provide the functionality for creating NFTs and storing their metadata. In addition, it defines a
+custom function for setting the profile picture of a token.
+Usage
+To use the NftProfile contract, you can import it into your Solidity code as follows:
+import "path/to/NftProfile.sol";
+Then, you can create a new instance of the contract and call its functions as needed:
+NftProfile nftProfile = new NftProfile(); // Create a new NFT uint256 tokenId = nftProfile
+.createNFT("https://example.com/token-123", "https://example.com/image-123"); // Set the profile
+picture for an NFT nftProfile.setProfilePicture(tokenId);
+Functionality
+The NftProfile contract inherits from ERC721URIStorage and adds the following functionality:
+• Create NFTs
+The createNFT function creates a new NFT with a given tokenURI and imageURI and returns its ID:
+function createNFT(string memory tokenURI, string memory imageURI) public returns (uint256)
+• Set Profile Picture
+The setProfilePicture function sets the profile picture for an existing NFT with a given tokenId:
+function setProfilePicture(uint256 tokenId) public
+Events
+The NftProfile contract emits the following events:
 
-* Event Ticketing Smart Contract 
+• ProfilePictureSet - emitted when the profile picture for an NFT is set.
+• TokenImageURISet - emitted when the image URI for an NFT is set.
+
+**Event Ticketing Smart Contract**
+
+This smart contract is used for creating events and issuing tickets on the Ethereum blockchain. It is
+based on Solidity version 0.8.17 and uses two contracts from the OpenZeppelin library: ERC1155 for
+creating tokens and Ownable for adding ownership and access control.
+Event Structure
+Within this contract, there is a structure called "Event" that has the following properties:
+• totalSupply: total number of tickets available for the event
+• remainingSupply: number of tickets still available for the event
+• price: the price of each ticket
+• startDate: the start date of the event
+• endDate: the end date of the event
+This structure is used to define and keep track of different events and their ticket details within the
+contract.
+Creating Events
+To create a new event, the contract owner can call the createEvent function. This function takes the
+following parameters:
+• _eventId: the ID of the event to be created
+• _totalTickets: the total number of tickets available for the event
+• _ticketPrice: the price of each ticket
+• _startDate: the start date of the event
+• _endDate: the end date of the event
+Before creating the event, several "require" statements are included which are conditions that must
+be met for the event to be created:
+1. The total number of tickets must be greater than zero
+2. The ticket price must be greater than zero
+3. The start date of the event must be in the future
+4. The end date of the event must be after the start date
+
+If all the conditions are met, the function will create a new event with the specified details and store
+it in the _events mapping defined earlier.
+Event Ticket Minting
+After an event is created, the contract owner can mint tickets for that event by calling the _mint
+function. This function takes the following parameters:
+• to: the address of the recipient of the minted tickets
+• id: the ID of the event for which the tickets are being minted
+• amount: the number of tickets to be minted
+• data: optional data to be included with the ticket minting
+This function will create and mint the specified number of tickets for the given event ID and
+transfer them to the recipient address.
+Access Control
+The Ownable contract is used to add ownership and access control to this contract. The contract
+owner can create events, mint tickets, and perform other administrative functions.
+Base URI
+This contract uses a base URI for the metadata of the NFTs created by this contract. The URI is set
+to "https://blockwave.com/tickets/{id}". The "{id}" part of the URI will be replaced with the actual
+ID of the NFT, which provides more information about the NFTs and makes them easier to identify
 
 
 
