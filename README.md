@@ -65,7 +65,7 @@ and **mint NFTs** associated with their account for their profile pictures.
 
 ## Smart Contract Documentation
 
-** NFT profile smart contract**
+**NFT profile smart contract**
 
 NftProfile is a Solidity smart contract for creating and managing non-fungible tokens (NFTs)
 that represent profiles. It extends the ERC721URIStorage contract from the OpenZeppelin library
