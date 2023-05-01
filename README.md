@@ -65,5 +65,10 @@ and **mint NFTs** associated with their account for their profile pictures.
 
 ## Smart Contract Documentation
 
+* NFT profile smart contract
+
+
+* Event Ticketing Smart Contract 
+
 
 
