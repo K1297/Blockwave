@@ -81,7 +81,7 @@ import "path/to/NftProfile.sol";
 Then, you can create a new instance of the contract and call its functions as needed:
 ```bash
 NftProfile nftProfile = new NftProfile(); // Create a new NFT uint256 tokenId = nftProfile
-.createNFT("https://example.com/token-123", "https://example.com/image-123"); // Set the profile
+.createNFT[_("https://example.com/token-123", "https://example.com/image-123")_]; // Set the profile
 picture for an NFT nftProfile.setProfilePicture(tokenId);
 ```
 **Functionality**
