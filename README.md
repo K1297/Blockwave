@@ -88,10 +88,10 @@ picture for an NFT nftProfile.setProfilePicture(tokenId);
 
 The NftProfile contract inherits from ERC721URIStorage and adds the following functionality:
 * Create NFTs
-The createNFT function creates a new NFT with a given tokenURI and imageURI and returns its ID:
+The **`createNFT`** function creates a new NFT with a given **`tokenURI`** and imageURI and returns its ID:
 function createNFT(string memory tokenURI, string memory imageURI) public returns (uint256)
 * Set Profile Picture
-The setProfilePicture function sets the profile picture for an existing NFT with a given tokenId:
+The **`setProfilePicture`** function sets the profile picture for an existing NFT with a given tokenId:
 function setProfilePicture(uint256 tokenId) public
 
 **Events**
