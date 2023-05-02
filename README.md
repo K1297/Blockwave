@@ -75,12 +75,15 @@ custom function for setting the profile picture of a token.
 **Usage**
 
 To use the NftProfile contract, you can import it into your Solidity code as follows:
+```bash
 import "path/to/NftProfile.sol";
+```
 Then, you can create a new instance of the contract and call its functions as needed:
+```bash
 NftProfile nftProfile = new NftProfile(); // Create a new NFT uint256 tokenId = nftProfile
 .createNFT("https://example.com/token-123", "https://example.com/image-123"); // Set the profile
 picture for an NFT nftProfile.setProfilePicture(tokenId);
-
+```
 **Functionality**
 
 The NftProfile contract inherits from ERC721URIStorage and adds the following functionality:
