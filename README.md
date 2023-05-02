@@ -180,9 +180,12 @@ request".
 }
 ```
 **Posts**
+
 **`POST /api/posts`**
+
 This endpoint is used for uploading a post picture to the server. The user needs to send a valid JWT cookie that was generated during authentication. Before associating the picture with the user's account, the server checks if the user is the actual owner of the wallet address. If the JWT cookie is valid, the server uploads the image to IPFS using Spheron SDK and associates the image IPFS URL with the user wallet address in the Sanity DB. If the JWT cookie is invalid, the server rejects the upload request.
 **Request**
+
 ```bash
 {
   "image": "string",
@@ -190,15 +193,19 @@ This endpoint is used for uploading a post picture to the server. The user needs
 }
 ```
 **Response**
+
 ```bash
 {
   "message": "string"
 }
 ```
 **Events**
+
 **`POST /api/events`**
+
 This endpoint is used for creating a new event. The user needs to send a valid JWT cookie that was generated during authentication. The server creates a new event in the Event Ticketing smart contract, and associates the event details with the user's wallet address in the Sanity DB. If the JWT cookie is invalid, the server rejects the event creation request.
 **Request**
+
 ```bash
 {
   "name": "string",
@@ -210,6 +217,7 @@ This endpoint is used for creating a new event. The user needs to send a valid J
 }
 ```
 **Response**
+
 ```bash
 {
   "message": "string"
