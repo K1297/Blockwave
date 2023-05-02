@@ -156,7 +156,7 @@ This contract uses a base URI for the metadata of the NFTs created by this contr
 to "https://blockwave.com/tickets/{id}". The "{id}" part of the URI will be replaced with the actual
 ID of the NFT, which provides more information about the NFTs and makes them easier to identify
 
-#Contribution Guidelines:-
+**Contribution Guidelines:-**
 
 We welcome contributions from anyone who would like to help improve our decentralized content sharing dapp. 
 To contribute , please follow the following steps: 
@@ -175,6 +175,15 @@ To contribute , please follow the following steps:
 * Janhavi Chavada 
 
 **Acknowledgements**
+
+we are very grateful for these organizations for their contributions to our decentralized content sharing dapp. 
+
+* 1) **Open AI** for their GPT- 3.5 language model which powers our Chat GPT.
+* 2) **Vercel** for providing a hosting platform and server less functions for our backend server.
+* 3) **Sanity** for their content management system which stores our user profiles , posts,comments, wallet addresses etc.
+* 4) **Spheron** for their SDK which is used to upload images to IPFS.
+* 5) **wagmi** for providing a UI for managing Ethereum wallets and interacting with smart contracts.
+* 6) **Ethereum** community for providing the blockchain network and smart contract ecosystem that our dapp runs on.
 
 
 
