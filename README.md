@@ -120,7 +120,7 @@ contract.
 
 **Creating Events**
 
-To create a new event, the contract owner can call the createEvent function. This function takes the
+To create a new event, the contract owner can call the **`createEvent function`**. This function takes the
 following parameters:
 * _eventId: the ID of the event to be created
 * _totalTickets: the total number of tickets available for the event
@@ -139,7 +139,7 @@ it in the _events mapping defined earlier.
 
 **Event Ticket Minting**
 
-After an event is created, the contract owner can mint tickets for that event by calling the _mint
+After an event is created, the contract owner can mint tickets for that event by calling **`the _mint`**
 function. This function takes the following parameters:
 * to: the address of the recipient of the minted tickets
 * id: the ID of the event for which the tickets are being minted
