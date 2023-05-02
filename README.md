@@ -204,6 +204,7 @@ This endpoint is used for uploading a post picture to the server. The user needs
 **`POST /api/events`**
 
 This endpoint is used for creating a new event. The user needs to send a valid JWT cookie that was generated during authentication. The server creates a new event in the Event Ticketing smart contract, and associates the event details with the user's wallet address in the Sanity DB. If the JWT cookie is invalid, the server rejects the event creation request.
+
 **Request**
 
 ```bash
@@ -226,6 +227,7 @@ This endpoint is used for creating a new event. The user needs to send a valid J
 # Troubleshooting
 
 **Metamask Login Issue**
+
 If you are unable to sign in with Metamask, make sure that your Metamask wallet is properly
 configured and has sufficient funds to pay for the transaction fees. Also, make sure that you are
 signed into Metamask and have granted permission for the dapp to access your wallet.
