@@ -1,5 +1,5 @@
 # BLOCKWAVE
-## Decentralized Content Sharing Dapp 
+# Decentralized Content Sharing Dapp 
 
 Blockwave is a decentralized content sharing dapp where users can share their posts and followers can
 pay directly to their favorite influencers using their wallet addresses. The dapp uses a decentralized
@@ -17,7 +17,7 @@ picture, which will be associated with their account in sanity.
 *  creating,  selling and buying of event tickets using smart contracts.
 
 
-## Architecture
+# Architecture
 ![blockwave 2 drawio (2)](https://user-images.githubusercontent.com/125735215/235477208-86aae503-bde2-4604-8a98-1352cca18302.png)
 
 **Components**
@@ -32,7 +32,7 @@ picture, which will be associated with their account in sanity.
 *  **Backend Server:** This is where server-side logic like post uploads are handled.
 *  **Metamask Wallet:** This is a browser extension for interacting with wallets and signing transactions.
    
-## Installation
+# Installation
 ```bash
 1. Clone the repository:
 ```
@@ -63,9 +63,9 @@ and in **Sanity studio.**
 *  users can browse posts , make payments to influencers 
 and **mint NFTs** associated with their account for their profile pictures.
 
-## Smart Contract Documentation
+# Smart Contract Documentation
 
-# NFT profile smart contract
+## NFT profile smart contract
 
 NftProfile is a Solidity smart contract for creating and managing non-fungible tokens (NFTs)
 that represent profiles. It extends the ERC721URIStorage contract from the OpenZeppelin library
@@ -98,7 +98,7 @@ The NftProfile contract emits the following events:
 * ProfilePictureSet - emitted when the profile picture for an NFT is set.
 * TokenImageURISet - emitted when the image URI for an NFT is set.
 
-# Event Ticketing Smart Contract
+## Event Ticketing Smart Contract
 
 This smart contract is used for creating events and issuing tickets on the Ethereum blockchain. It is
 based on Solidity version 0.8.17 and uses two contracts from the OpenZeppelin library: ERC1155 for
@@ -156,7 +156,7 @@ This contract uses a base URI for the metadata of the NFTs created by this contr
 to "https://blockwave.com/tickets/{id}". The "{id}" part of the URI will be replaced with the actual
 ID of the NFT, which provides more information about the NFTs and makes them easier to identify
 
-## Contribution Guidelines
+# Contribution Guidelines
 
 We welcome contributions from anyone who would like to help improve our decentralized content sharing dapp. 
 To contribute , please follow the following steps: 
@@ -167,14 +167,14 @@ To contribute , please follow the following steps:
 * push your changes to your forked repository 
 * open a pull request to merge your changes into the main branch 
 
-## Team Members
+# Team Members
 
 * Aryan Kumar
 * Kushal Sapra 
 * Barbra Kokonya
 * Janhavi Chavada 
 
-## Acknowledgements
+# Acknowledgements
 
 we are very grateful for these organizations for their contributions to our decentralized content sharing dapp. 
 
