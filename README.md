@@ -158,7 +158,7 @@ ID of the NFT, which provides more information about the NFTs and makes them eas
 
 # API Documentation 
 
-**Authentication**
+## Authentication
 
 **`POST /api/auth`**
 
