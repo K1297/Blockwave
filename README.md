@@ -156,6 +156,33 @@ This contract uses a base URI for the metadata of the NFTs created by this contr
 to "https://blockwave.com/tickets/{id}". The "{id}" part of the URI will be replaced with the actual
 ID of the NFT, which provides more information about the NFTs and makes them easier to identify
 
+#Contribution Guidelines:-
+
+We welcome contributions from anyone who would like to help improve our decentralized content sharing dapp. 
+To contribute , please follow the following steps: 
+
+* fork the repository to your own github account 
+* create a new branch from the main branch for your changes 
+* make your changes and commit them with clear commit messages 
+* push your changes to your forked repository 
+* open a pull request to merge your changes into the main branch 
+
+**Team Members**
+
+* Aryan Kumar
+* Kushal Sapra 
+* Barbra Kokonya
+* Janhavi Chavada 
+
+**Acknowledgements**
+
+
+
+
+
+
+
+
 
 
 
