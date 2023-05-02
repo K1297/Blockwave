@@ -223,7 +223,28 @@ This endpoint is used for creating a new event. The user needs to send a valid J
   "message": "string"
 }
 ```
+# Troubleshooting
 
+**Metamask Login Issue**
+If you are unable to sign in with Metamask, make sure that your Metamask wallet is properly
+configured and has sufficient funds to pay for the transaction fees. Also, make sure that you are
+signed into Metamask and have granted permission for the dapp to access your wallet.
+
+**Image Upload Issue**
+
+If you are unable to upload an image, make sure that the image is in a supported format and within
+the size limit. Also, make sure that you are sending a valid JWT cookie with the request.
+
+**Event Creation Issue**
+
+If you are unable to create an event, make sure that you are sending a valid JWT cookie with the
+request and that the event details are valid.
+
+**Ticket Purchase Issue**
+
+If you are unable to purchase a ticket, make sure that you are sending a valid JWT cookie with the
+request and that the event ID is valid. Also, make sure that you have sufficient funds in your wallet
+to pay for the ticket.
 
 # Contribution Guidelines
 
