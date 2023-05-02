@@ -65,7 +65,7 @@ and **mint NFTs** associated with their account for their profile pictures.
 
 ## Smart Contract Documentation
 
-**NFT profile smart contract**
+# NFT profile smart contract
 
 NftProfile is a Solidity smart contract for creating and managing non-fungible tokens (NFTs)
 that represent profiles. It extends the ERC721URIStorage contract from the OpenZeppelin library
@@ -98,7 +98,7 @@ The NftProfile contract emits the following events:
 * ProfilePictureSet - emitted when the profile picture for an NFT is set.
 * TokenImageURISet - emitted when the image URI for an NFT is set.
 
-**Event Ticketing Smart Contract**
+# Event Ticketing Smart Contract
 
 This smart contract is used for creating events and issuing tickets on the Ethereum blockchain. It is
 based on Solidity version 0.8.17 and uses two contracts from the OpenZeppelin library: ERC1155 for
