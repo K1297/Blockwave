@@ -18,7 +18,8 @@ picture, which will be associated with their account in sanity.
 
 
 # Architecture
-![photo_2023-05-03_11-40-02](https://user-images.githubusercontent.com/125735215/235869937-cc2ae5fe-8b19-47f7-bbbc-98fbd47d6679.jpg)
+![photo_2023-05-03_11-40-02](https://user-images.githubusercontent.com/125735215/235933332-f79eaa67-567e-4c92-bcb0-94eee86b50ee.jpg)
+
 
 **Components**
 *  **User's Browser:** This is where the user interacts with the frontend UI.
