@@ -22,16 +22,14 @@ picture, which will be associated with their account in sanity.
 
 
 **Components**
-*  **User's Browser:** This is where the user interacts with the frontend UI.
-*  **Vercel Hosting Platform:** This is where the frontend app is hosted and serves as a CDN fordelivering static assets.
-*  **Next.js Frontend App:** This is the frontend application that the user interacts with, built using the Next.js framework.
-*  **Sanity Studio:** This is where data like user profiles, posts, comments, and wallet addresses are stored.
-*  **Wagmi:** This is a user-friendly interface for managing Ethereum wallets and interacting with smart contracts.
-*  **Event Ticketing Smart Contract:** This is a smart contract that manages the creation, selling, and buying of event tickets.
+*  **Frontend:** This is the user interface that users interact with. It is responsible for displaying information and allowing users to interact with the application.
+*  **NFT Profile Smart Contract:** This is a smart contract that manages the creation, ownership, and transfer of non-fungible tokens (NFTs) that represent user profiles.
+*  **Event Ticketing Smart Contract:** This is a smart contract that manages the creation, sale of event tickets as NFTs.
+*  **Sign in with Ethereum:** This is a feature that allows users to sign in to the application using their Ethereum wallet address.
+*  **Backend:** This is the server-side of the application that handles data storage, processing, and communication with other components.
+*  **Sanity Database:** This is a cloud-based database service that provides a scalable and flexible solution for storing and managing data.
 *  **IPFS Network:** This is a decentralized peer-to-peer network for storing and sharing files.
-*  **Polygon Test Network:** This is the blockchain network where the dapp's smart contracts are deployed.
-*  **Backend Server:** This is where server-side logic like post uploads are handled.
-*  **Metamask Wallet:** This is a browser extension for interacting with wallets and signing transactions.
+*  **Spheron SDK:** This is a software development kit (SDK) that provides tools for building decentralized applications on the Ethereum blockchain..
    
 # Installation
 ```bash
