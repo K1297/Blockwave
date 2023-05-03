@@ -273,13 +273,12 @@ To contribute , please follow the following steps:
 # Acknowledgements
 
 we are very grateful for these organizations for their contributions to our decentralized content sharing dapp. 
-
-* 1) **Open AI** for their GPT- 3.5 language model which powers our Chat GPT.
-* 2) **Vercel** for providing a hosting platform and server less functions for our backend server.
-* 3) **Sanity** for their content management system which stores our user profiles , posts,comments, wallet addresses etc.
-* 4) **Spheron** for their SDK which is used to upload images to IPFS.
-* 5) **wagmi** for providing a UI for managing Ethereum wallets and interacting with smart contracts.
-* 6) **Ethereum** community for providing the blockchain network and smart contract ecosystem that our dapp runs on.
+ 
+*    **Vercel** for providing a hosting platform and server less functions for our backend server.
+*    **Sanity** for their content management system which stores our user profiles , posts,comments, wallet addresses etc.
+*    **Spheron** for their SDK which is used to upload images to IPFS.
+*    **wagmi** for providing a UI for managing Ethereum wallets and interacting with smart contracts.
+*    **Polygon** community for providing the blockchain network and smart contract ecosystem that our dapp runs on.
  
 
 
