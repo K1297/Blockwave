@@ -1,7 +1,7 @@
 # BLOCKWAVE
-# Decentralized Content Sharing Dapp  
+# Decentralized Social Media Dapp  
 
-Blockwave is a decentralized content sharing dapp where users can share their posts and followers can
+Blockwave is a decentralized social media dapp where users can share their posts and followers can
 pay directly to their favorite influencers using their wallet addresses. The dapp uses a decentralized
 architecture and integrates with user-friendly UI, and sanity studio to store data like user profiles,
 posts, comments, and wallet addresses. The dapp also allows users to mint NFTs and set their profile
@@ -13,8 +13,9 @@ picture, which will be associated with their account in sanity.
 *  nft minting for profile picture.
 *  event ticketing page to buy tickets for events.
 *  post upload and association with user's wallet address. 
-*  access to likes/dislikes/ commenting on posts.
+*  access to likes/commenting on posts.
 *  creating,  selling and buying of event tickets using smart contracts.
+*  Tipping to your favourite Influncer
 
 
 # Architecture
@@ -277,7 +278,7 @@ we are very grateful for these organizations for their contributions to our dece
 *    **Sanity** for their content management system which stores our user profiles , posts,comments, wallet addresses etc.
 *    **Spheron** for their SDK which is used to upload images to IPFS.
 *    **wagmi** for providing a UI for managing Ethereum wallets and interacting with smart contracts.
-*    **Polygon** community for providing the blockchain network and smart contract ecosystem that our dapp runs on.
+*    **Mantle** community for providing the blockchain network and smart contract ecosystem that our dapp runs on.
  
 
 
