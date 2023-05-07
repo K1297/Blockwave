@@ -9,7 +9,7 @@ picture, which will be associated with their account in sanity.
 
 ## Frontend Repository
 
-The frontend repository for Blockwave can be found at [https://github.com/blockwaveapp/blockwave-frontend](https://github.com/aryan877/blockwave-frontend).
+The frontend repository for Blockwave, which includes the smart contracts, can be found at [https://github.com/blockwaveapp/blockwave-frontend](https://github.com/aryan877/blockwave-frontend).
 
 ## Backend Repository
 
