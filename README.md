@@ -14,7 +14,7 @@ picture, which will be associated with their account in sanity.
 *  nft minting for profile picture.
 *  event ticketing page to buy tickets for events.
 *  post upload and association with user's wallet address. 
-*  access to likes/commenting on posts.
+*  access to likes and commenting on posts.
 *  creating,  selling and buying of event tickets using smart contracts.
 *  Tipping to your favourite Influncer
 
