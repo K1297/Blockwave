@@ -40,7 +40,7 @@ The backend repository for Blockwave can be found at [https://github.com/blockwa
 *  **IPFS Network:** This is a decentralized peer-to-peer network for storing and sharing files.
 *  **Spheron SDK:** This is a software development kit (SDK) that provides tools for building decentralized applications.
    
-# Frontend (Next.js) Installation
+Frontend (Next.js) Installation
 
 Clone the repository
 git clone https://github.com/blockwaveapp/blockwave-frontend.git
@@ -49,13 +49,13 @@ Install dependencies
 cd blockwave-frontend
 npm install
 
-# Configure environment variables by creating a .env file in the root directory with the following variables:
-# - SANITY_TOKEN
-# - NEXT_PUBLIC_SANITY_ID
-# - SPHERON_TOKEN
-# - IRON_PASSWORD
+* Configure environment variables by creating a .env file in the root directory with the following variables:
+* - SANITY_TOKEN
+* - NEXT_PUBLIC_SANITY_ID
+* - SPHERON_TOKEN
+* - IRON_PASSWORD
 
-# Backend (Sanity) Installation
+Backend (Sanity) Installation
 
 # Clone the repository
 git clone https://github.com/blockwaveapp/blockwave-backend.git
