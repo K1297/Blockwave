@@ -23,12 +23,12 @@ picture, which will be associated with their account in sanity.
 
 
 ## Components
-*  **Frontend:** This is the user interface that users interact with. It is responsible for displaying information and allowing users to interact with the application.
+*  **Frontend:** This is the user interface that users interact with. It is responsible for displaying information and allowing users to interact with our Dapp.
 *  **NFT Profile Smart Contract:** This is a smart contract that manages the creation, ownership, and transfer of non-fungible tokens (NFTs) that represent user profiles.
 *  **Event Ticketing Smart Contract:** This is a smart contract that manages the creation, sale of event tickets as NFTs.
 *  **Sign in with Ethereum:** This is a feature that allows users to sign in to the application using their Ethereum wallet address.
-*  **Backend:** This is the server-side of the application that handles data storage, processing, and communication with other components.
-*  **Sanity Database:** This is a cloud-based database service that provides a scalable and flexible solution for storing and managing data.
+*  **Backend:** This is the server-side of the Dapp that handles data storage, processing, and communication with other components.
+*  **Sanity Database:** This is a cloud-based database service that provides a scalable and flexible solution for storing and managing data of our users.
 *  **IPFS Network:** This is a decentralized peer-to-peer network for storing and sharing files.
 *  **Spheron SDK:** This is a software development kit (SDK) that provides tools for building decentralized applications.
    
