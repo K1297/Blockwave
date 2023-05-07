@@ -40,7 +40,7 @@ The backend repository for Blockwave can be found at [https://github.com/blockwa
 *  **IPFS Network:** This is a decentralized peer-to-peer network for storing and sharing files.
 *  **Spheron SDK:** This is a software development kit (SDK) that provides tools for building decentralized applications.
 
-# Installatiom
+# Installation
 ## Frontend (Next.js) Installation
 
 **Clone the repository**
