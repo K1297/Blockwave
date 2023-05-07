@@ -41,7 +41,7 @@ The backend repository for Blockwave can be found at [https://github.com/blockwa
 *  **Spheron SDK:** This is a software development kit (SDK) that provides tools for building decentralized applications.
 
 # Installatiom
-##Frontend (Next.js) Installation
+## Frontend (Next.js) Installation
 
 **Clone the repository**
 git clone https://github.com/blockwaveapp/blockwave-frontend.git
@@ -59,6 +59,7 @@ npm install
 ## Backend (Sanity) Installation
 
 **Clone the repository**
+
 git clone https://github.com/blockwaveapp/blockwave-backend.git
 
 **Install dependencies**
