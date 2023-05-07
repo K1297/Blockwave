@@ -40,27 +40,33 @@ The backend repository for Blockwave can be found at [https://github.com/blockwa
 *  **IPFS Network:** This is a decentralized peer-to-peer network for storing and sharing files.
 *  **Spheron SDK:** This is a software development kit (SDK) that provides tools for building decentralized applications.
    
-# Installation
-```bash
-1. Clone the repository: 
-```
-gitclone[(https://github.com/username/repo.git)]
-```bash
-2. Install dependencies:
-```
-```bash
-3.  Configure environment variables by creating a .env file in the root directory with the following
-variables:
-```
-```bash
-4.  Start the development server:
-```
-```bash
-5.  Deploy the app to Vercel:
-```
-```bash
-6.  This will deploy the app to Vercel, and you will be provided with a URL where you can access the app:
-```
+# Frontend (Next.js) Installation
+
+# Clone the repository
+git clone https://github.com/blockwaveapp/blockwave-frontend.git
+
+# Install dependencies
+cd blockwave-frontend
+npm install
+
+# Configure environment variables by creating a .env file in the root directory with the following variables:
+# - SANITY_TOKEN
+# - NEXT_PUBLIC_SANITY_ID
+# - SPHERON_TOKEN
+# - IRON_PASSWORD
+
+# Backend (Sanity) Installation
+
+# Clone the repository
+git clone https://github.com/blockwaveapp/blockwave-backend.git
+
+# Install dependencies
+cd blockwave-backend
+npm install
+
+# Start the Sanity Studio server
+sanity dev
+
 # Usage
 
 *   sign in with ethereum wallet by clicking on the "sign in with ethereum " button.
