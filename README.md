@@ -8,7 +8,7 @@ posts, comments, and wallet addresses. The dapp also allows users to mint NFTs a
 picture, which will be associated with their account in sanity.
 
 
-## Features 
+# Features 
 *  user authentication with Metamask Wallet.
 *  Supports mantle testnet, shardeum sphinx and polygon testnet.
 *  post upload and association with user's wallet address.
@@ -22,7 +22,7 @@ picture, which will be associated with their account in sanity.
 ![photo_2023-05-03_11-40-02](https://user-images.githubusercontent.com/125735215/235933332-f79eaa67-567e-4c92-bcb0-94eee86b50ee.jpg)
 
 
-**Components**
+## Components
 *  **Frontend:** This is the user interface that users interact with. It is responsible for displaying information and allowing users to interact with the application.
 *  **NFT Profile Smart Contract:** This is a smart contract that manages the creation, ownership, and transfer of non-fungible tokens (NFTs) that represent user profiles.
 *  **Event Ticketing Smart Contract:** This is a smart contract that manages the creation, sale of event tickets as NFTs.
@@ -53,7 +53,7 @@ variables:
 ```bash
 6.  This will deploy the app to Vercel, and you will be provided with a URL where you can access the app:
 ```
-## Usage
+# Usage
 
 *   sign in with ethereum wallet by clicking on the "sign in with ethereum " button.
 *   upload a post picture by clicking on the "post" button and selecting a picture
