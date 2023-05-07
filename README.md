@@ -42,7 +42,7 @@ The backend repository for Blockwave can be found at [https://github.com/blockwa
    
 # Installation
 ```bash
-1. Clone the repository:
+1. Clone the repository: 
 ```
 gitclone[(https://github.com/username/repo.git)]
 ```bash
