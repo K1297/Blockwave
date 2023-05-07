@@ -7,6 +7,14 @@ architecture and integrates with user-friendly UI, and sanity studio to store da
 posts, comments, and wallet addresses. The dapp also allows users to mint NFTs and set their profile
 picture, which will be associated with their account in sanity.
 
+## Frontend Repository
+
+The frontend repository for Blockwave can be found at [https://github.com/blockwaveapp/blockwave-frontend](https://github.com/aryan877/blockwave-frontend).
+
+## Backend Repository
+
+The backend repository for Blockwave can be found at [https://github.com/blockwaveapp/blockwave-backend](https://github.com/aryan877/blockwave-backend).
+
 
 # Features 
 *  user authentication with Metamask Wallet.
