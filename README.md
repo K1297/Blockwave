@@ -11,13 +11,12 @@ picture, which will be associated with their account in sanity.
 ## Features 
 *  user authentication with Metamask Wallet.
 *  Supports mantle testnet, shardeum sphinx and polygon testnet.
-*  nft minting for profile picture.
-*  event ticketing page to buy tickets for events.
-*  post upload and association with user's wallet address. 
+*  post upload and association with user's wallet address.
 *  access to likes and commenting on posts.
+*  Normal upload and nft minting for profile picture.
+*  Tipping to your favourite Influncer.
+*  event ticketing page to buy tickets for events.
 *  creating,  selling and buying of event tickets using smart contracts.
-*  Tipping to your favourite Influncer
-
 
 # Architecture
 ![photo_2023-05-03_11-40-02](https://user-images.githubusercontent.com/125735215/235933332-f79eaa67-567e-4c92-bcb0-94eee86b50ee.jpg)
