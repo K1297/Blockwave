@@ -10,7 +10,7 @@ picture, which will be associated with their account in sanity.
 
 ## Features 
 *  user authentication with Metamask Wallet.
-*  Supports mantle testnet, shardeum sphinx, polygon testnet.
+*  Supports mantle testnet, shardeum sphinx and polygon testnet.
 *  nft minting for profile picture.
 *  event ticketing page to buy tickets for events.
 *  post upload and association with user's wallet address. 
