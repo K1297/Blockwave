@@ -39,13 +39,14 @@ The backend repository for Blockwave can be found at [https://github.com/blockwa
 *  **Sanity Database:** This is a cloud-based database service that provides a scalable and flexible solution for storing and managing data of our users.
 *  **IPFS Network:** This is a decentralized peer-to-peer network for storing and sharing files.
 *  **Spheron SDK:** This is a software development kit (SDK) that provides tools for building decentralized applications.
-   
-Frontend (Next.js) Installation
 
-Clone the repository
+# Installatiom
+##Frontend (Next.js) Installation
+
+**Clone the repository**
 git clone https://github.com/blockwaveapp/blockwave-frontend.git
 
-Install dependencies
+**Install dependencies**
 cd blockwave-frontend
 npm install
 
@@ -55,16 +56,16 @@ npm install
 * - SPHERON_TOKEN
 * - IRON_PASSWORD
 
-Backend (Sanity) Installation
+## Backend (Sanity) Installation
 
-# Clone the repository
+**Clone the repository**
 git clone https://github.com/blockwaveapp/blockwave-backend.git
 
-# Install dependencies
+**Install dependencies**
 cd blockwave-backend
 npm install
 
-# Start the Sanity Studio server
+**Start the Sanity Studio server**
 sanity dev
 
 # Usage
