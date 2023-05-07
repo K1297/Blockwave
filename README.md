@@ -42,10 +42,10 @@ The backend repository for Blockwave can be found at [https://github.com/blockwa
    
 # Frontend (Next.js) Installation
 
-# Clone the repository
+Clone the repository
 git clone https://github.com/blockwaveapp/blockwave-frontend.git
 
-# Install dependencies
+Install dependencies
 cd blockwave-frontend
 npm install
 
