@@ -274,10 +274,8 @@ To contribute , please follow the following steps:
 
 we are very grateful for these organizations for their contributions to our decentralized content sharing dapp. 
  
-*    **Vercel** for providing a hosting platform and server less functions for our backend server.
 *    **Sanity** for their content management system which stores our user profiles , posts,comments, wallet addresses etc.
 *    **Spheron** for their SDK which is used to upload images to IPFS.
-*    **wagmi** for providing a UI for managing Ethereum wallets and interacting with smart contracts.
 *    **Mantle, Shardeum and polygon** community for providing the blockchain networks and smart contract ecosystem that our dapp runs on.
  
 
