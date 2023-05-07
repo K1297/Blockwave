@@ -10,6 +10,7 @@ picture, which will be associated with their account in sanity.
 
 ## Features 
 *  user authentication with Metamask Wallet.
+*  Supports mantle testnet, shardeum sphinx, polygon testnet.
 *  nft minting for profile picture.
 *  event ticketing page to buy tickets for events.
 *  post upload and association with user's wallet address. 
@@ -278,7 +279,7 @@ we are very grateful for these organizations for their contributions to our dece
 *    **Sanity** for their content management system which stores our user profiles , posts,comments, wallet addresses etc.
 *    **Spheron** for their SDK which is used to upload images to IPFS.
 *    **wagmi** for providing a UI for managing Ethereum wallets and interacting with smart contracts.
-*    **Mantle** community for providing the blockchain network and smart contract ecosystem that our dapp runs on.
+*    **Mantle, Shardeum and polygon** community for providing the blockchain networks and smart contract ecosystem that our dapp runs on.
  
 
 
