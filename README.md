@@ -104,7 +104,7 @@ The NftProfile contract emits the following events:
 ## Event Ticketing Smart Contract
 
 This smart contract is used for creating events and issuing tickets on the Ethereum blockchain. It is
-based on Solidity version 0.8.17 and uses two contracts from the OpenZeppelin library: ERC1155 for
+based on Solidity version 0.8.0 and uses two contracts from the OpenZeppelin library: ERC1155 for
 creating tokens and Ownable for adding ownership and access control.
 
 **Event Structure**
