@@ -30,7 +30,7 @@ picture, which will be associated with their account in sanity.
 *  **Backend:** This is the server-side of the application that handles data storage, processing, and communication with other components.
 *  **Sanity Database:** This is a cloud-based database service that provides a scalable and flexible solution for storing and managing data.
 *  **IPFS Network:** This is a decentralized peer-to-peer network for storing and sharing files.
-*  **Spheron SDK:** This is a software development kit (SDK) that provides tools for building decentralized applications on the Ethereum blockchain..
+*  **Spheron SDK:** This is a software development kit (SDK) that provides tools for building decentralized applications.
    
 # Installation
 ```bash
