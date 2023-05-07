@@ -61,7 +61,7 @@ variables:
 *  your post will be associated with your ethereum wallet address 
 and in Sanity studio.
 *  users can browse posts , make payments to influencers 
-and mint NFTs associated with their account for their profile pictures.
+and mint NFTs associated with their account for their profile pictures, create event and sell tickets in form of NFTs.
 
 # Smart Contract Documentation
 
