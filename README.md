@@ -3,7 +3,7 @@
 
 Blockwave is a decentralized social media and event ticketing dapp where users can share their posts, create and buy event tickets using ERC-1155 tokens, and followers can pay directly to their favorite influencers using their wallet addresses. The dapp uses a decentralized architecture and integrates with user-friendly UI, and sanity studio to store data like user profiles, posts, comments, wallet addresses, and ticket details. The dapp also allows users to mint NFTs and set their profile picture, which will be associated with their account in sanity.
 
-## Frontend Repository
+## Frontend and Smart Contracts Repository
 
 The frontend repository for Blockwave, which includes the smart contracts, can be found at [https://github.com/blockwaveapp/blockwave-frontend](https://github.com/aryan877/blockwave-frontend).
 
