@@ -254,7 +254,7 @@ The getAlltoken function returns an array of RenderToken structs representing al
 
     event TokenMinted(uint256 tokenId);
 
-We emit the TokenMinted event every time a new NFT is minted in our smart contract. This event contains the ID of the newly minted token (tokenId), we save this ID in sanity against the user profile after reading it from the transaction log on the blockchain.  We later use the `ownerOf(tokenId)` function from ERC-721 on frontend the NFT to verify ownership and provide additional security features on the frontend.
+We emit the TokenMinted event whenever a new Profile Image NFT is minted in our smart contract, which includes the newly minted token ID (tokenId). We extract this ID from the blockchain transaction log and store it in Sanity against the user's profile. To ensure additional security, we verify ownership of the NFT by calling the ownerOf(tokenId) function from the ERC-721 standard each time a user's profile page is loaded on the frontend.
 
 # Troubleshooting
 
