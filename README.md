@@ -3,11 +3,7 @@
 # BLOCKWAVE
 ## Decentralized Social Media and Event Booking Application (DApp)
 
-Blockwave is a decentralized social media and event ticketing platform that allows users to share their posts, create and purchase event tickets, and pay directly to their favorite influencers using their wallet addresses. 
-
-The platform utilizes a decentralized architecture and integrates with user-friendly UI and Sanity Studio to store data such as user profiles, posts, comments, wallet addresses, and ticket details. 
-
-With Blockwave, users can mint their own NFTs and set their profile pictures to be associated with their account in Sanity.
+Blockwave is a decentralized social media and event ticketing platform that allows users to share their posts, create and purchase event tickets, and pay directly to their favorite influencers using their wallet addresses. The platform utilizes a decentralized architecture and integrates with user-friendly UI and Sanity Studio to store data such as user profiles, posts, comments, wallet addresses, and ticket details. With Blockwave, users can mint their own NFTs and set their profile pictures to be associated with their account in Sanity.
 
 Blockwave is available on three EVM-based blockchains: [Mantle Wadsley Testnet](https://explorer.testnet.mantle.xyz/), [Shardeum Sphinx Betanet](https://explorer-sphinx.shardeum.org/), and [Polygon Mumbai](https://mumbai.polygonscan.com/). Users can easily connect to their preferred blockchain network and start using the platform. 
 
