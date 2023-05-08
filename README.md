@@ -1,5 +1,5 @@
 # BLOCKWAVE
-## Decentralized Social Media Cum Event Booking Dapp  
+## Decentralized Social Media and Event Booking Application (DApp)
 
 Blockwave is a decentralized social media and event ticketing dapp where users can share their posts, create and buy event tickets using ERC-1155 tokens, and followers can pay directly to their favorite influencers using their wallet addresses. The dapp uses a decentralized architecture and integrates with user-friendly UI, and sanity studio to store data like user profiles, posts, comments, wallet addresses, and ticket details. The dapp also allows users to mint NFTs and set their profile picture, which will be associated with their account in sanity.
 
