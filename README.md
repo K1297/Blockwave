@@ -18,13 +18,13 @@ They can buy and sell tickets using the native tokens of the respective blockcha
 
 Blockwave is a decentralized application whose repositories can be found on GitHub.
 
--   The **frontend** repository for the Next.js app can be found at [https://github.com/aryan877/blockwave](https://github.com/aryan877/blockwave).
-    
--   The **serverless functions** for Blockwave can be found in the `/src/pages/api` directory of the frontend repository, and can be accessed at [api-routes](https://github.com/aryan877/blockwave/tree/main/src/pages/api).
-    
--   The **smart contracts** for Blockwave are located in the `/contracts` directory of the frontend repository, and can be accessed at [smart contracts](https://github.com/aryan877/blockwave/tree/main/contracts).
-    
--   The **Sanity Studio** repository for Blockwave can be found at [blockwave-sanity](https://github.com/aryan877/blockwave-sanity).
+-   The frontend repository for the Next.js app can be found at [https://github.com/aryan877/blockwave](https://github.com/aryan877/blockwave).
+   
+-   The smart contracts for Blockwave are located in the `/contracts` directory of the frontend repository, and can be accessed at [smart contracts](https://github.com/aryan877/blockwave/tree/main/contracts).
+   
+-   The serverless functions for Blockwave can be found in the `/src/pages/api` directory of the frontend repository, and can be accessed at [api-routes](https://github.com/aryan877/blockwave/tree/main/src/pages/api).
+  
+-   The Sanity Studio repository for Blockwave can be found at [blockwave-sanity](https://github.com/aryan877/blockwave-sanity).
 
 
 # Features
