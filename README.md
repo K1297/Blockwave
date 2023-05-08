@@ -29,7 +29,7 @@ The sanity studio repository for Blockwave can be found at [https://github.com/a
 
 # Features 
 
-- User authentication to the backend is done through wallet integration, utilizing the **Sign in with Ethereum** (SIWE) feature.
+- User authentication to the backend is done through wallet integration, utilizing the **Sign in with Ethereum** (SIWE) feature. SIWE was used so that users can stay logged in securely on page refresh and a secure communication to the serverless functions can be established.
 -  Supports *Mantle Wadsley testnet, Shardeum 1.X Sphinx and Polygon Mumbai testnet*.
 -   The dapp leverages [Spheron Storage SDK](https://github.com/spheronFdn/sdk/blob/main/packages/storage/README.md) to enable the uploading of metadata for ERC-721 NFTs used for profile images and ERC-1155 NFTs used for event ticketing, as well as any type of media like posts.
 -   Users can engage with content by liking and commenting on posts.
@@ -290,6 +290,7 @@ We are very grateful for these organizations for their contributions to our dece
 -   [Mantle](https://www.mantle.xyz/) and [Shardeum](https://shardeum.org/) communities for providing the blockchain networks and smart contract ecosystem that Blockwave runs on.
 -   [Sanity](https://www.sanity.io/) for their content management system which stores our user profiles, posts, comments, wallet public keys, and more.
 -   [wagmi](https://wagmi.sh/) for their collection of React Hooks containing everything you need to start working with Ethereum, making it easy to "Connect Wallet," and display balance information, sign messages, interact with contracts, and much more — all with caching, request deduplication, and persistence.
+
 
 
 
