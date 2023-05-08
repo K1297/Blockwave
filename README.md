@@ -1,3 +1,4 @@
+
 # BLOCKWAVE
 ## Decentralized Social Media and Event Booking Application (DApp)
 
@@ -38,6 +39,7 @@ The backend repository for Blockwave can be found at [https://github.com/blockwa
 *  **Spheron SDK:** This is a software development kit (SDK) that provides tools for building decentralized applications.
 
 # Installation
+
 ## Frontend (Next.js) Installation
 
 **Clone the repository**
@@ -80,43 +82,44 @@ To use this application:
 
 # Smart Contract Documentation
 
-## NFT profile smart contract
+Our decentralized content sharing dapp uses two different smart contracts to implement two different functionalities.
 
-NftProfile is a Solidity smart contract for creating and managing non-fungible tokens (NFTs)
-that represent profiles. It extends the ERC721URIStorage contract from the OpenZeppelin library
-to provide the functionality for creating NFTs and storing their metadata. In addition, it defines a
-custom function for setting the profile picture of a token.
+Firstly, we use the ERC-1155 TicketFactory contract for event ticketing. This contract allows the creation and management of multiple fungible tokens (i.e. tokens that are interchangeable with one another), each representing a ticket for a specific event. This contract is suitable for event ticketing as it allows us to create a large number of identical tickets for an event and easily track their distribution and sale. It also allows us to keep track of the total number of tickets created, the number of tickets sold, the remaining available tickets, event start date and time and event end date and time.
 
-**Usage**
+Secondly, we use the ERC-721 ProfileImage contract for profile image uploads for our users. This contract allows us to create and manage unique, non-fungible tokens (NFTs), each representing a user's profile image. This contract is suitable for profile image uploads as it ensures that each user's profile image is unique and cannot be duplicated or replicated. It also allows us to easily manage and track the ownership of each user's profile image.
 
-To use the NftProfile contract, you can import it into your Solidity code as follows:
-```bash
-import "path/to/NftProfile.sol";
-```
-Then, you can create a new instance of the contract and call its functions as needed:
-```bash
-NftProfile nftProfile = new NftProfile(); // Create a new NFT uint256 tokenId = nftProfile
-.createNFT("https://example.com/token-123", "https://example.com/image-123"); // Set the profile
-picture for an NFT nftProfile.setProfilePicture(tokenId);
-```
-**Functionality**
+By using both ERC-1155 and ERC-721 contracts, we are able to implement two distinct functionalities in our dapp with the appropriate level of tokenization for each use case.
 
-The NftProfile contract inherits from ERC721URIStorage and adds the following functionality:
-* Create NFTs
-The **`createNFT`** function creates a new NFT with a given **`tokenURI`** and imageURI and returns its ID:
-function createNFT(string memory tokenURI, string memory imageURI) public returns (uint256)
-* Set Profile Picture
-The **`setProfilePicture`** function sets the profile picture for an existing NFT with a given **`tokenId`**:
-function setProfilePicture(uint256 tokenId) public
+## ProfileImage smart contract
+
+The ProfileImage contract inherits from ERC721 and adds the following functionality:
+
+**Mint NFTs**
+The mint function mints a new NFT with a given _uri and assigns it to a given recipient. It returns the ID of the new NFT:
+
+    function mint(address recipient, string memory _uri) public returns (uint256)
+
+**Get all tokens**
+The getAlltoken function returns an array of RenderToken structs representing all the existing NFTs:
+
+    function getAlltoken() public view returns (RenderToken[] memory)
+
+*The RenderToken struct has the following fields:*
+
+    id - the ID of the NFT
+    uri - the URI of the NFT
+    space - an empty string used for formatting purposes
 
 **Events**
 
-The NftProfile contract emits the following events:
+The ProfileImage contract emits the following event:
 
-* ProfilePictureSet - emitted when the profile picture for an NFT is set.
-* TokenImageURISet - emitted when the image URI for an NFT is set.
+TokenMinted - emitted when a new NFT is minted.
 
-## Event Ticketing Smart Contract
+
+
+
+## TicketFactory Smart Contract
 
 This smart contract is used for creating events and issuing tickets on the Ethereum blockchain. It is
 based on Solidity version 0.8.0 and uses two contracts from the OpenZeppelin library: ERC1155 for
@@ -276,12 +279,10 @@ To contribute , please follow the following steps:
 
 # Acknowledgements
 
-we are very grateful for these organizations for their contributions to our decentralized content sharing dapp. 
- 
-*    **Sanity** for their content management system which stores our user profiles , posts,comments, wallet addresses etc.
-*    **Spheron** for their SDK which is used to upload images to IPFS.
-*    **Mantle, Shardeum and polygon** community for providing the blockchain networks and smart contract ecosystem that our dapp runs on.
- 
 
+We are very grateful for these organizations for their contributions to our decentralized content sharing dapp:
 
+* **Spheron** for their SDK which is used to upload images and NFT metadata to IPFS.
+* **Mantle**, **Shardeum**, and **Polygon** community for providing the blockchain networks and smart contract ecosystem that Blockwave runs on.
+* **Sanity** for their content management system which stores our user profiles, posts, comments, wallet public keys, and more.
 
