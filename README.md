@@ -14,7 +14,7 @@ They can buy and sell tickets using the native tokens of the respective blockcha
 
 
 
-## Blockwave Repositories
+## Blockwave Code Repositories
 
 Blockwave is a decentralized application whose repositories can be found on GitHub.
 
