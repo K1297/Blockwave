@@ -106,7 +106,7 @@ We use the ERC-1155 TicketFactory contract for event ticketing. This contract al
 -   Create a large number of identical tickets for an event
 -   Easily track the distribution and sale of tickets
 -   Keep track of the total number of tickets created, the number of tickets sold, the remaining available tickets, event start date and time, and event end date and time.
-- 
+
 The TicketFactory contract inherits from ERC1155 and adds the following functionality:
 
 ### Structs
