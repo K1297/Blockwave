@@ -11,7 +11,7 @@ The frontend repository for Blockwave, which includes the smart contracts, can b
 
 ## Serverless Functions
 
-The serverless functions for Blockwave can be found in the `/api` directory of the frontend repository.
+The serverless functions for Blockwave can be found in the `/src/pages/api` directory of the frontend repository.
 
 ## Smart Contracts
 
