@@ -7,7 +7,7 @@ Blockwave is a decentralized social media and event ticketing dapp where users c
 
 ## Frontend Repository
 
-The frontend repository for Blockwave, which includes the smart contracts, can be found at [https://github.com/blockwaveapp/blockwave-frontend](https://github.com/aryan877/blockwave).
+The frontend repository for Blockwave, which includes the smart contracts, can be found at [https://github.com/blockwaveapp/blockwave](https://github.com/aryan877/blockwave).
 
 ## Serverless Functions
 
@@ -19,7 +19,7 @@ The smart contracts for Blockwave can be found in the `/contracts` directory of 
 
 ## Sanity Repository
 
-The sanity studio repository for Blockwave can be found at [https://github.com/blockwaveapp/blockwave-backend](https://github.com/aryan877/blockwave-sanity).
+The sanity studio repository for Blockwave can be found at [https://github.com/blockwaveapp/blockwave-sanity](https://github.com/aryan877/blockwave-sanity).
 
 
 
