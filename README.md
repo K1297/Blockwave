@@ -9,9 +9,9 @@ Blockwave supports three EVM-based blockchains: [Mantle Wadsley Testnet](https:/
 
 They can buy and sell tickets using the native tokens of the respective blockchains, such as BIT on Mantle, SHM on Shardeum, and Matic on Polygon. With a seamless and secure user experience, Blockwave brings social media and event ticketing to the blockchain.
 
-## Frontend Repository
+## Blockwave Next.js Repository
 
-The frontend repository for Blockwave, which includes the smart contracts, can be found at [https://github.com/aryan877/blockwave](https://github.com/aryan877/blockwave)
+The main repository for Blockwave, which includes the smart contracts, can be found at [https://github.com/aryan877/blockwave](https://github.com/aryan877/blockwave)
 
 ## Serverless Functions
 
