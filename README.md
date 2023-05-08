@@ -9,7 +9,7 @@ They can buy and sell tickets using the native tokens of the respective blockcha
 
 
 
-## Blockwave Repositories
+## Blockwave Repositories 🔗
 
 Blockwave is a decentralized application whose repositories can be found on GitHub.
 
@@ -22,7 +22,7 @@ Blockwave is a decentralized application whose repositories can be found on GitH
 -   The Sanity Studio repository for Blockwave can be found at [blockwave-sanity](https://github.com/aryan877/blockwave-sanity).
 
 
-# Features 
+# Features 🌟
 
 - User authentication to the backend is done through wallet integration, utilizing the **Sign in with Ethereum** (SIWE) feature. SIWE was used so that users can stay logged in securely on page refresh and a secure communication to the serverless functions can be established.
 -  Supports *Mantle Wadsley testnet, Shardeum 1.X Sphinx and Polygon Mumbai testnet*.
@@ -48,7 +48,7 @@ Blockwave is a decentralized application whose repositories can be found on GitH
 *  **IPFS Network:** This is a decentralized peer-to-peer network for storing and sharing files.
 *  **Spheron SDK:** This is a software development kit (SDK) that provides tools for building decentralized applications.
 
-# Local Installation
+# Local Installation 🔧
 
 To get started with the Blockwave app on your local machine, please follow the steps below:
 
