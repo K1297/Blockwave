@@ -1,4 +1,5 @@
 
+
 # BLOCKWAVE
 ## Decentralized Social Media and Event Booking Application (DApp)
 
@@ -112,7 +113,7 @@ We use the ERC-1155 TicketFactory contract for event ticketing. This contract al
 - 
 The TicketFactory contract inherits from ERC1155 and adds the following functionality:
 
-**Structs**
+## Structs
 
 **1. Ticket Struct**
 
@@ -131,7 +132,7 @@ The "Ticket" structure is a key component of our ERC-1155 TicketFactory smart co
     
 This structure is used to define and keep track of different events and their ticket details within the contract. It allows us to easily create and manage multiple fungible tokens (i.e. tokens that are interchangeable with one another), each representing an event. With the help of this structure, we can keep track of the total number of events created, the number of tickets sold, the remaining available tickets, event start date and time, event end date and time, and other metadata associated with the event.
 
-**Functions**
+## Functions
 
 **1. Create Ticket Function**
 
@@ -178,7 +179,7 @@ The "getMyTickets" function is also a public view function defined within the ER
 
 `function getMyTickets() public view returns (Ticket[] memory) {}`
 
-**Events**
+## Events
 
 **1. TicketCreated** - emitted when a new event ticket is created.
 
@@ -224,7 +225,7 @@ We use the ERC-721 ProfileImage contract for profile image uploads for our users
 
 The ProfileImage contract inherits from ERC721 and adds the following functionality:
 
-**Structs**
+## Structs
 
 **1. RenderToken struct**
 
@@ -234,7 +235,7 @@ The ProfileImage contract inherits from ERC721 and adds the following functional
     string space;
     }
     
-**Functions**
+## Functions
 
 **1. Mint NFT Function**
 
@@ -248,7 +249,7 @@ The getAlltoken function returns an array of RenderToken structs representing al
 
     function getAlltoken() public view returns (RenderToken[] memory) {}
 
-**Events**
+## Events
 
 **1. TokenMinted** - emitted when a new NFT is minted.
 
@@ -293,4 +294,5 @@ We are very grateful for these organizations for their contributions to our dece
 -   [Mantle](https://www.mantle.xyz/) and [Shardeum](https://shardeum.org/) communities for providing the blockchain networks and smart contract ecosystem that Blockwave runs on.
 -   [Sanity](https://www.sanity.io/) for their content management system which stores our user profiles, posts, comments, wallet public keys, and more.
 -   [wagmi](https://wagmi.sh/) for their collection of React Hooks containing everything you need to start working with Ethereum, making it easy to "Connect Wallet," and display balance information, sign messages, interact with contracts, and much more — all with caching, request deduplication, and persistence.
+
 
