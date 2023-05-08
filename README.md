@@ -1,5 +1,3 @@
-
-
 # BLOCKWAVE
 ## Decentralized Social Media and Event Booking Application (DApp)
 
@@ -48,97 +46,61 @@ The sanity studio repository for Blockwave can be found at [https://github.com/a
 *  **IPFS Network:** This is a decentralized peer-to-peer network for storing and sharing files.
 *  **Spheron SDK:** This is a software development kit (SDK) that provides tools for building decentralized applications.
 
-# Installation
+# Local Installation
 
-## Frontend (Next.js) Installation
-
-**Clone the repository**
-git clone https://github.com/blockwaveapp/blockwave-frontend.git
-
-**Install dependencies**
-
-    cd blockwave-frontend
-    npm install
-
-**Configure environment variables by creating a .env file in the root directory with the following variables:**
- - SANITY_TOKEN
- - NEXT_PUBLIC_SANITY_ID
- - SPHERON_TOKEN
- - IRON_PASSWORD
-
-## Backend (Sanity) Installation
+To get started with the Blockwave app on your local machine, please follow the steps below:
 
 **Clone the repository**
 
-git clone https://github.com/blockwaveapp/blockwave-backend.git
+Clone the Blockwave repository to your local machine by running the following command:
+
+    git clone https://github.com/aryan877/blockwave
 
 **Install dependencies**
 
-    cd blockwave-backend
+Navigate into the cloned repository and install the dependencies by running the following command:
+
+    cd blockwave
     npm install
+    
+**Configure Environment Variables**
 
-**Start the Sanity Studio server**
+Configure the environment variables required for the app by creating a `.env.local` file in the root directory of the cloned repository. The `.env.local` file should contain the following variables:
 
-    sanity dev
-
+-   `SANITY_TOKEN`: This is an authentication token required for accessing the Sanity database. It allows the application to read and write data to the database.
+-   `NEXT_PUBLIC_SANITY_ID`: This is the project ID for the Sanity database. It is used to identify which database the application should connect to.
+-   `SPHERON_TOKEN`: This is a token required for accessing the Spheron SDK, which is used for decentralized content distribution.
+-   `IRON_PASSWORD`: This is a password required for encrypting and decrypting sensitive data, such as user wallet addresses. It is used for secure storage and transfer of data within the application.
 
 # Usage
 
 To use this application:
 
-1. Sign in with your Ethereum wallet by clicking on the "Sign in with Ethereum" button.
-2. Upload a post picture by clicking on the "Post" button and selecting a picture from your local file system.
+1. Sign in with your Ethereum wallet by clicking on the **Sign in with Ethereum** button.
+2. Upload a post picture by clicking on the **Post** button and selecting a picture from your local file system.
 3. Your post will be associated with your Ethereum wallet address and stored in Sanity Studio.
 4. Browse posts, make payments to influencers, and mint NFTs associated with your account for your profile pictures.
 5. Create events and sell tickets in the form of NFTs.
 
 
+
 # Smart Contract Documentation
 
-Our decentralized content sharing dapp uses two different smart contracts to implement two different functionalities.
+Our decentralized content sharing dapp uses two different smart contracts to implement two different functionalities:
 
-Firstly, we use the ERC-1155 TicketFactory contract for event ticketing. This contract allows the creation and management of multiple fungible tokens (i.e. tokens that are interchangeable with one another), each representing a ticket for a specific event. This contract is suitable for event ticketing as it allows us to create a large number of identical tickets for an event and easily track their distribution and sale. It also allows us to keep track of the total number of tickets created, the number of tickets sold, the remaining available tickets, event start date and time and event end date and time.
+-   **ERC-1155 TicketFactory contract**: This contract allows the creation and management of multiple fungible tokens, each representing a ticket for a specific event. It is suitable for event ticketing as it allows the creation of a large number of identical tickets for an event and easy tracking of their distribution and sale.
+    
+-   **ERC-721 ProfileImage contract**: This contract allows the creation and management of unique, non-fungible tokens (NFTs), each representing a user's profile image. It is suitable for profile image uploads as it ensures that each user's profile image is unique and cannot be duplicated or replicated. This contract also allows for easy management and tracking of the ownership of each user's profile image.
 
-Secondly, we use the ERC-721 ProfileImage contract for profile image uploads for our users. This contract allows us to create and manage unique, non-fungible tokens (NFTs), each representing a user's profile image. This contract is suitable for profile image uploads as it ensures that each user's profile image is unique and cannot be duplicated or replicated. It also allows us to easily manage and track the ownership of each user's profile image.
+## ERC-1155 TicketFactory Contract
 
-By using both ERC-1155 and ERC-721 contracts, we are able to implement two distinct functionalities in our dapp with the appropriate level of tokenization for each use case.
+We use the ERC-1155 TicketFactory contract for event ticketing. This contract allows the creation and management of multiple fungible tokens (i.e. tokens that are interchangeable with one another), each representing a ticket for a specific event. This contract is suitable for event ticketing as it allows us to:
 
-## ProfileImage smart contract
+-   Create a large number of identical tickets for an event
+-   Easily track the distribution and sale of tickets
+-   Keep track of the total number of tickets created, the number of tickets sold, the remaining available tickets, event start date and time, and event end date and time.
 
-The ProfileImage contract inherits from ERC721 and adds the following functionality:
-
-**Mint NFTs**
-The mint function mints a new NFT with a given _uri and assigns it to a given recipient. It returns the ID of the new NFT:
-
-    function mint(address recipient, string memory _uri) public returns (uint256)
-
-**Get all tokens**
-The getAlltoken function returns an array of RenderToken structs representing all the existing NFTs:
-
-    function getAlltoken() public view returns (RenderToken[] memory)
-
-*The RenderToken struct has the following fields:*
-
-    id - the ID of the NFT
-    uri - the URI of the NFT
-    space - an empty string used for formatting purposes
-
-**Events**
-
-The ProfileImage contract emits the following event:
-
-TokenMinted - emitted when a new NFT is minted.
-
-
-
-
-## TicketFactory Smart Contract
-
-This smart contract is used for creating events and issuing tickets on the Ethereum blockchain. It is
-based on Solidity version 0.8.0 and uses two contracts from the OpenZeppelin library: ERC1155 for
-creating tokens and Ownable for adding ownership and access control.
-
-**Event Structure**
+**Event Struct**
 
 Within this contract, there is a structure called "Event" that has the following properties:
 * totalSupply: total number of tickets available for the event
@@ -181,114 +143,71 @@ transfer them to the recipient address.
 
 **Access Control**
 
-The Ownable contract is used to add ownership and access control to this contract. The contract
-owner can create events, mint tickets, and perform other administrative functions.
+The Ownable contract is used to add ownership and access control to this contract. The contract owner can create events, mint tickets, and perform other administrative functions.
 
-**Base URI**
+## ERC-721 ProfileImage Contract
 
-This contract uses a base URI for the metadata of the NFTs created by this contract. The URI is set
-to "https://blockwave.com/tickets/{id}". The "{id}" part of the URI will be replaced with the actual
-ID of the NFT, which provides more information about the NFTs and makes them easier to identify
+We use the ERC-721 ProfileImage contract for profile image uploads for our users. This contract allows us to create and manage unique, non-fungible tokens (NFTs), each representing a user's profile image. This contract is suitable for profile image uploads as it ensures that:
 
-# API Documentation 
+-   Each user's profile image is unique and cannot be duplicated or replicated
+-   We can easily manage and track the ownership of each user's profile image.
 
-## Authentication
+The ProfileImage contract inherits from ERC721 and adds the following functionality:
 
-**`POST /api/auth`**
+**Mint NFTs**
 
-This endpoint is used for user authentication. The user needs to sign a transaction in Metamask with
-a nonce value generated by the server. Once the user signs the prompt, the backend server receives
-the signature and checks if the signature is valid. If it is valid, the server sends back a JWT cookie to
-the client. If it is not valid, the server rejects the login and sends back "not authenticated, invalid
-request".
+The mint function mints a new NFT with a given _uri and assigns it to a given recipient. It returns the ID of the new NFT:
 
-**Request**
-```bash
-{
-  "nonce": "string"
-}
-```
-```bash
-{
-  "token": "string"
-}
-```
-**Posts**
+    function mint(address recipient, string memory _uri) public returns (uint256)
 
-**`POST /api/posts`**
+**Get All Tokens**
 
-This endpoint is used for uploading a post picture to the server. The user needs to send a valid JWT cookie that was generated during authentication. Before associating the picture with the user's account, the server checks if the user is the actual owner of the wallet address. If the JWT cookie is valid, the server uploads the image to IPFS using Spheron SDK and associates the image IPFS URL with the user wallet address in the Sanity DB. If the JWT cookie is invalid, the server rejects the upload request.
+The getAlltoken function returns an array of RenderToken structs representing all the existing NFTs:
 
-**Request**
+    function getAlltoken() public view returns (RenderToken[] memory)
 
-```bash
-{
-  "image": "string",
-  "token": "string"
-}
-```
-**Response**
+**RenderToken struct**
 
-```bash
-{
-  "message": "string"
-}
-```
+    id - the ID of the NFT
+    uri - the URI of the NFT
+    space - an empty string used for formatting purposes
+
 **Events**
 
-**`POST /api/events`**
+TokenMinted - emitted when a new NFT is minted.
 
-This endpoint is used for creating a new event. The user needs to send a valid JWT cookie that was generated during authentication. The server creates a new event in the Event Ticketing smart contract, and associates the event details with the user's wallet address in the Sanity DB. If the JWT cookie is invalid, the server rejects the event creation request.
+    event TokenMinted(uint256 tokenId);
 
-**Request**
+By using both ERC-1155 and ERC-721 contracts, we are able to implement two distinct functionalities in our dapp with the appropriate level of tokenization for each use case.
 
-```bash
-{
-  "name": "string",
-  "description": "string",
-  "date": "string",
-  "location": "string",
-  "price": "number",
-  "token": "string"
-}
-```
-**Response**
-
-```bash
-{
-  "message": "string"
-}
-```
 # Troubleshooting
 
 **Metamask Login Issue**
 
-If you are unable to sign in with Metamask, make sure that your Metamask wallet is properly
-configured and has sufficient funds to pay for the transaction fees. Also, make sure that you are
-signed into Metamask and have granted permission for the dapp to access your wallet.
+If you are unable to sign in with Metamask, please ensure that your Metamask wallet is properly configured and has sufficient funds to pay for the transaction fees. Additionally, ensure that you are signed into Metamask and have granted permission for the dapp to access your wallet.
 
 **Image Upload Issue**
 
-If you are unable to upload an image, make sure that the image is in a supported format and within
-the size limit. Also, make sure that you are sending a valid JWT cookie with the request.
+If you are unable to upload an image, please ensure that the image is in a supported format and within the size limit of 10MB. 
 
 # Contribution Guidelines
 
-We welcome contributions from anyone who would like to help improve our decentralized content sharing dapp. 
-To contribute , please follow the following steps: 
+We welcome contributions from anyone who would like to help improve our decentralized content sharing dapp.
 
-* fork the repository to your own github account 
-* create a new branch from the main branch for your changes 
-* make your changes and commit them with clear commit messages 
-* push your changes to your forked repository 
-* open a pull request to merge your changes into the main branch 
+To contribute, please follow the following steps:
+
+1. Fork the repository to your own GitHub account: https://github.com/blockwaveapp/blockwave.git
+2. Create a new branch from the main branch for your changes.
+3. Make your changes and commit them with clear commit messages.
+4. Push your changes to your forked repository.
+5. Open a pull request to merge your changes into the main branch.
 
 # Team Members
 
-* Aryan Kumar
-* Kushal Sapra 
-* Barbra Kokonya
-* Janhavi Chavada 
+- Aryan Kumar
+- Kushal Sapra 
+- Barbra Kokonya
+- Janhavi Chavada 
 
 # Acknowledgements
 
