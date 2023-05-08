@@ -1,5 +1,3 @@
-
-
 # BLOCKWAVE
 ## Decentralized Social Media and Event Booking Application (DApp)
 
@@ -9,22 +7,19 @@ Blockwave supports three EVM-based blockchains: [Mantle Wadsley Testnet](https:/
 
 They can buy and sell tickets using the native tokens of the respective blockchains, such as BIT on Mantle, SHM on Shardeum, and Matic on Polygon. With a seamless and secure user experience, Blockwave brings social media and event ticketing to the blockchain.
 
-## Blockwave Next.js Repository
 
-The main repository for Blockwave, which includes the smart contracts, can be found at [https://github.com/aryan877/blockwave](https://github.com/aryan877/blockwave)
 
-## Serverless Functions
+## Blockwave Repositories
 
-The serverless functions for Blockwave can be found in the `/src/pages/api` directory of the frontend repository.
+Blockwave is a decentralized application whose repositories can be found on GitHub.
 
-## Smart Contracts
-
-The smart contracts for Blockwave can be found in the `/contracts` directory of the frontend repository.
-
-## Sanity Repository
-
-The sanity studio repository for Blockwave can be found at [https://github.com/aryan877/blockwave-sanity](https://github.com/aryan877/blockwave-sanity).
-
+-   The frontend repository includes smart contracts and can be found at [https://github.com/aryan877/blockwave](https://github.com/aryan877/blockwave).
+    
+-   The serverless functions for Blockwave can be found in the `/src/pages/api` directory of the frontend repository, and can be accessed at [api-routes](https://github.com/aryan877/blockwave/tree/main/src/pages/api).
+    
+-   The smart contracts for Blockwave are located in the `/contracts` directory of the frontend repository, and can be accessed at [smart contracts](https://github.com/aryan877/blockwave/tree/main/contracts).
+    
+-   The Sanity Studio repository for Blockwave can be found at [blockwave-sanity](https://github.com/aryan877/blockwave-sanity).
 
 
 # Features 
@@ -290,7 +285,6 @@ We are very grateful for these organizations for their contributions to our dece
 -   [Mantle](https://www.mantle.xyz/) and [Shardeum](https://shardeum.org/) communities for providing the blockchain networks and smart contract ecosystem that Blockwave runs on.
 -   [Sanity](https://www.sanity.io/) for their content management system which stores our user profiles, posts, comments, wallet public keys, and more.
 -   [wagmi](https://wagmi.sh/) for their collection of React Hooks containing everything you need to start working with Ethereum, making it easy to "Connect Wallet," and display balance information, sign messages, interact with contracts, and much more — all with caching, request deduplication, and persistence.
-
 
 
 
