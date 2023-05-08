@@ -1,11 +1,7 @@
 # BLOCKWAVE
-# Decentralized Social Media Dapp  
+## Decentralized Social Media Dapp  
 
-Blockwave is a decentralized social media dapp where users can share their posts and followers can
-pay directly to their favorite influencers using their wallet addresses. The dapp uses a decentralized
-architecture and integrates with user-friendly UI, and sanity studio to store data like user profiles,
-posts, comments, and wallet addresses. The dapp also allows users to mint NFTs and set their profile
-picture, which will be associated with their account in sanity.
+Blockwave is a decentralized social media and event ticketing dapp where users can share their posts, create and buy event tickets using ERC-1155 tokens, and followers can pay directly to their favorite influencers using their wallet addresses. The dapp uses a decentralized architecture and integrates with user-friendly UI, and sanity studio to store data like user profiles, posts, comments, wallet addresses, and ticket details. The dapp also allows users to mint NFTs and set their profile picture, which will be associated with their account in sanity.
 
 ## Frontend Repository
 
@@ -17,17 +13,18 @@ The backend repository for Blockwave can be found at [https://github.com/blockwa
 
 
 # Features 
-*  user authentication with Metamask Wallet.
-*  Supports mantle testnet, shardeum sphinx and polygon testnet.
-*  post upload and association with user's wallet address.
-*  access to likes and commenting on posts.
-*  Normal upload and nft minting for profile picture.
-*  Tipping to your favourite Influncer.
-*  event ticketing page to buy tickets for events.
-*  creating,  selling and buying of event tickets using smart contracts.
+
+- User authentication to the backend is done through wallet integration, utilizing the "Sign in with Ethereum" (SIWE) feature.
+-  Supports *Mantle Wadsley testnet, Shardeum 1.X Sphinx and Polygon Mumbai testnet*.
+-   The dapp leverages [Spheron Storage SDK](https://github.com/spheronFdn/sdk/blob/main/packages/storage/README.md) to enable the uploading of metadata for ERC-721 NFTs used for profile images and ERC-1155 NFTs used for event ticketing, as well as any type of media like posts.
+-   Users can engage with content by liking and commenting on posts.
+-   The platform supports both standard image uploads and NFT minting for profile pictures.
+-   Users can tip their favorite influencers directly using wallet addresses.
+-   There is an event ticketing page that allows users to purchase tickets for events.
+-   The platform facilitates the creation, sale, and purchase of event tickets using smart contracts.
 
 # Architecture
-![photo_2023-05-03_11-40-02](https://user-images.githubusercontent.com/125735215/235933332-f79eaa67-567e-4c92-bcb0-94eee86b50ee.jpg)
+![photo_2023-05-03_11-40-02](https://user-images.githubusercontent.com/38075578/236750639-5ec91396-0ce1-46bd-b7f9-49f6b66a1bf5.jpg)
 
 
 ## Components
@@ -50,11 +47,11 @@ git clone https://github.com/blockwaveapp/blockwave-frontend.git
 cd blockwave-frontend
 npm install
 
-* Configure environment variables by creating a .env file in the root directory with the following variables:
-* - SANITY_TOKEN
-* - NEXT_PUBLIC_SANITY_ID
-* - SPHERON_TOKEN
-* - IRON_PASSWORD
+**Configure environment variables by creating a .env file in the root directory with the following variables:**
+ - SANITY_TOKEN
+ - NEXT_PUBLIC_SANITY_ID
+ - SPHERON_TOKEN
+ - IRON_PASSWORD
 
 ## Backend (Sanity) Installation
 
@@ -69,15 +66,17 @@ npm install
 **Start the Sanity Studio server**
 sanity dev
 
+
 # Usage
 
-*   sign in with ethereum wallet by clicking on the "sign in with ethereum " button.
-*   upload a post picture by clicking on the "post" button and selecting a picture
- from your local file system. 
-*  your post will be associated with your ethereum wallet address 
-and in Sanity studio.
-*  users can browse posts , make payments to influencers 
-and mint NFTs associated with their account for their profile pictures, create event and sell tickets in form of NFTs.
+To use this application:
+
+1. Sign in with your Ethereum wallet by clicking on the "Sign in with Ethereum" button.
+2. Upload a post picture by clicking on the "Post" button and selecting a picture from your local file system.
+3. Your post will be associated with your Ethereum wallet address and stored in Sanity Studio.
+4. Browse posts, make payments to influencers, and mint NFTs associated with your account for your profile pictures.
+5. Create events and sell tickets in the form of NFTs.
+
 
 # Smart Contract Documentation
 
@@ -257,17 +256,6 @@ signed into Metamask and have granted permission for the dapp to access your wal
 If you are unable to upload an image, make sure that the image is in a supported format and within
 the size limit. Also, make sure that you are sending a valid JWT cookie with the request.
 
-**Event Creation Issue**
-
-If you are unable to create an event, make sure that you are sending a valid JWT cookie with the
-request and that the event details are valid.
-
-**Ticket Purchase Issue**
-
-If you are unable to purchase a ticket, make sure that you are sending a valid JWT cookie with the
-request and that the event ID is valid. Also, make sure that you have sufficient funds in your wallet
-to pay for the ticket.
-
 # Contribution Guidelines
 
 We welcome contributions from anyone who would like to help improve our decentralized content sharing dapp. 
@@ -294,7 +282,6 @@ we are very grateful for these organizations for their contributions to our dece
 *    **Spheron** for their SDK which is used to upload images to IPFS.
 *    **Mantle, Shardeum and polygon** community for providing the blockchain networks and smart contract ecosystem that our dapp runs on.
  
-
 
 
 
