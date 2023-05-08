@@ -1,4 +1,3 @@
-
 # BLOCKWAVE
 ## Decentralized Social Media and Event Booking Application (DApp)
 
@@ -46,8 +45,9 @@ The backend repository for Blockwave can be found at [https://github.com/blockwa
 git clone https://github.com/blockwaveapp/blockwave-frontend.git
 
 **Install dependencies**
-cd blockwave-frontend
-npm install
+
+    cd blockwave-frontend
+    npm install
 
 **Configure environment variables by creating a .env file in the root directory with the following variables:**
  - SANITY_TOKEN
@@ -62,11 +62,13 @@ npm install
 git clone https://github.com/blockwaveapp/blockwave-backend.git
 
 **Install dependencies**
-cd blockwave-backend
-npm install
+
+    cd blockwave-backend
+    npm install
 
 **Start the Sanity Studio server**
-sanity dev
+
+    sanity dev
 
 
 # Usage
@@ -285,4 +287,5 @@ We are very grateful for these organizations for their contributions to our dece
 * **Spheron** for their SDK which is used to upload images and NFT metadata to IPFS.
 * **Mantle**, **Shardeum**, and **Polygon** community for providing the blockchain networks and smart contract ecosystem that Blockwave runs on.
 * **Sanity** for their content management system which stores our user profiles, posts, comments, wallet public keys, and more.
+
 
