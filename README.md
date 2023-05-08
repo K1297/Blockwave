@@ -9,7 +9,7 @@ The platform utilizes a decentralized architecture and integrates with user-frie
 
 With Blockwave, users can mint their own NFTs and set their profile pictures to be associated with their account in Sanity.
 
-Blockwave is available on three EVM-based blockchains: **Mantle Wadsley Testnet, Shardeum Sphinx 1.X, and Polygon Mumbai**. Users can easily connect to their preferred blockchain network and start using the platform. 
+Blockwave is available on three EVM-based blockchains: [Mantle Wadsley Testnet](https://explorer.testnet.mantle.xyz/), [Shardeum Sphinx Betanet](https://explorer-sphinx.shardeum.org/), and [Polygon Mumbai](https://mumbai.polygonscan.com/). Users can easily connect to their preferred blockchain network and start using the platform. 
 
 They can buy and sell tickets using the native tokens of the respective blockchains, such as BIT on Mantle, SHM on Shardeum, and Matic on Polygon. With a seamless and secure user experience, Blockwave brings social media and event ticketing to the blockchain.
 
@@ -294,5 +294,6 @@ We are very grateful for these organizations for their contributions to our dece
 -   [Mantle](https://www.mantle.xyz/) and [Shardeum](https://shardeum.org/) communities for providing the blockchain networks and smart contract ecosystem that Blockwave runs on.
 -   [Sanity](https://www.sanity.io/) for their content management system which stores our user profiles, posts, comments, wallet public keys, and more.
 -   [wagmi](https://wagmi.sh/) for their collection of React Hooks containing everything you need to start working with Ethereum, making it easy to "Connect Wallet," and display balance information, sign messages, interact with contracts, and much more — all with caching, request deduplication, and persistence.
+
 
 
