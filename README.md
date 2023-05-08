@@ -284,7 +284,7 @@ To contribute, please follow the following steps:
 
 # Acknowledgements
 
-We are very grateful for these organizations for their contributions to our decentralized content sharing dapp:
+We are very grateful for these organizations for their contributions to our dapp:
 
 -   [Spheron](https://spheron.network/) for their SDK which is used to upload images and NFT metadata to IPFS.
 -   [Mantle](https://www.mantle.xyz/) and [Shardeum](https://shardeum.org/) communities for providing the blockchain networks and smart contract ecosystem that Blockwave runs on.
