@@ -1,6 +1,4 @@
 <div align="center">
-
-<img src="https://user-images.githubusercontent.com/38075578/236826007-3ffe0b35-941b-4539-8df5-671464a30418.png"/>
   <h1>Blockwave</h1>
   <p>
     <strong>A Decentralized Social Media and Event Booking Application</strong>
